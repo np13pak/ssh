@@ -1,4 +1,4 @@
 #!/bin/bash
 
-
-echo -e "root\nroot" | passwd root
+echo "PermitRootLogin without-password" >> /etc/ssh/sshd_config
+echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
