@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
+
+echo -e "root\nroot" | passwd linuxuser
