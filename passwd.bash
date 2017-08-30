@@ -1,2 +1,2 @@
 #!/bin/bash
-echo password | passwd username --stdin
+echo root:root | chpasswd
