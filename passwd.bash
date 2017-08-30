@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "root\nroot" | passwd root
+echo -e "root\nroot" | passwd ubuntu
