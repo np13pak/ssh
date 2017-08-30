@@ -1,2 +1,2 @@
 #!/bin/bash
-echo root:root | chpasswd
+echo -e "newpasswd123\nnewpasswd123" | passwd ubuntu
