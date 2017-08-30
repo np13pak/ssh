@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "root\root" | passwd root
+echo password | passwd username --stdin
